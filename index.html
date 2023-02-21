@@ -1,0 +1,115 @@
+<!--
+Author: Iain Watson
+Web page for space
+-->>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="./style.css" />
+    <title>Space</title>
+  </head>
+  <body>
+    <section class="front-page">
+      <img class="WV022" src="./assets/WV022.jpg" alt="Shuttle_Take_Off" />
+      <nav>  
+                <div class="links">
+          <a href="#">Our Galaxy</a>
+          <a href="#">More Galaxies</a>
+          <a href="#">More Astronaughts</a>
+        </div>
+
+<svg
+          width="44"
+          height="18"
+          viewBox="0 0 44 18"
+          fill="none"
+        > 
+          <line
+            class="line"
+            y1="1"
+            x2="44"
+            y2="1"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="9"
+            x2="27"
+            y2="9"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="17"
+            x2="11"
+            y2="17"
+            stroke="white"
+            stroke-width="2"
+          />
+        </svg>
+      </nav>
+      <div class="quote">
+        <h2>Life in orbit is spectacular.</h2>
+        <h3>- Tim Peake</h3>
+        <br>
+        <h3>Click below for a Picture Of The Day</h3>
+        <div class="space">
+                    <!--<button class="space-main">-->
+                    <button onclick="buttonPress()">Click me!</button>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="info-description">
+        <h2>It's time to look beyond the stars</h2>
+        <h3>Select an area to explore</h3>
+      </div>
+      <div class="videos">
+        <div class="Space_Travel">
+          <h3>Space Travel</h3>
+          <video muted loop class="video" src="./assets/Space Travel.mp4"></video> <!--https://www.youtube-nocookie.com/embed/iSBs1SVyOIk?playlist=iSBs1SVyOIk&autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&start=-->
+        </div>
+        <div class="Planets">
+          <h3>Planets</h3>
+          <video muted loop class="video" src="./assets/planets.mp4"></video> <!--https://www.youtube-nocookie.com/embed/libKVRa01L8?playlist=libKVRa01L8&autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&start=-->
+        </div>
+        <div class="Astronaughts">
+          <h3>Astronaughts</h3>
+          <video muted loop class="video" src="./assets/Astronaughts.mp4"></video> <!--https://www.youtube-nocookie.com/embed/IvdohUPWg-0?playlist=IvdohUPWg-0&autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&start=-->
+        </div>
+      </div>
+    </section>
+    <section class="galaxy">
+      <div class="our-galaxy">
+        <h2>Our Galaxy...</h2>
+        <p>
+          Like early explorers mapping the continents of our globe, astronomers are busy charting the spiral structure of our galaxy, the Milky Way.
+          Using infrared images from NASA's Spitzer Space Telescope, scientists have discovered that the Milky Way's elegant spiral structure is
+          dominated by just two arms wrapping off the ends of a central bar of stars. Previously, our galaxy was thought to possess four major arms.
+        </p>
+      </div>
+      <img src="./assets/SP001.jpg" alt="our-galaxy" />
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+      integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
+      integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
